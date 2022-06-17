@@ -100,7 +100,7 @@ input{
     background: var(--blue);
     color: #fff;
     border: none;
-   margin-top: 20px;
+    margin-top: 20px;
    
 }
 
@@ -109,9 +109,6 @@ input{
     font-size: 0.75rem;
 }
 
-.trail-button, .claim-button{
-    font-size: inherit;
-}
 
 .red-text{
     color: red;
@@ -132,6 +129,6 @@ input{
 
 @media (max-width: 500px) {
     .trail-button{
-        font-size: 12px;
+        font-size: small;
     }
 }
