@@ -106,7 +106,7 @@ input{
 
 .para{
     color: var(--grayish-blue);
-    font-size: small;
+    font-size: 0.75rem;
 }
 
 .trail-button, .claim-button{
