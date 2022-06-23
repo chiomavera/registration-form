@@ -85,8 +85,6 @@ input{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-
-
 .claim-button {
     background: var(--green);
     text-transform: uppercase;
@@ -118,14 +116,16 @@ input{
 @media (min-width: 768px) {
     .container{
         grid-template-columns: repeat(2, 1fr);
+        background-image: url(../images/bg-intro-desktop.png);
     }
 
     .text-box{
-        width: 400px;
         margin-top: 150px;
-        background-image: url(../images/bg-intro-desktop.png);
+        margin-right: 30px;
     }
 }
+
+
 
 @media (max-width: 500px) {
     .trail-button{
